@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 50rem; */
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+  /* width: 50rem; */
+  height: 10rem;
+  border-radius: 20px;
+  padding: 6.4rem;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  align-items: center;
+
+  /* display: flex;
+  align-items: center; */
+}
+
+.main-header {
+  color: white;
+  font-size: 3.2rem;
+  font-family: "Big Shoulders Display";
+
+  font-weight: 700;
+
+  padding-bottom: 3.2rem;
+  padding-top: 3.2rem;
+}
+
+.column-box {
+  padding: 3.2rem;
+  height: 50rem;
+  width: 30rem;
+}
+
+.column-box-1 {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0px 0px 10px;
+}
+
+.column-box-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.column-box-3 {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.main-text {
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 6.4rem;
+  line-height: 1.5;
+}
+
+.btn-link:link,
+.btn-link:visited {
+  display: inline-block;
+  background-color: white;
+  border-radius: 20px;
+  border: white;
+  text-decoration: none;
+  color: green;
+  font-size: 15px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+
+  cursor: pointer;
+}
+
+.btn-link:hover,
+.btn-link:active {
+  color: white;
+  border: 1px solid white;
+}
+
+.btn-link:hover,
+.btn-link:active {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.btn-1:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+.btn-2:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.btn-3:hover {
+  background-color: hsl(179, 100%, 13%);
+}

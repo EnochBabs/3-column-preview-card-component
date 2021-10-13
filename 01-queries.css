@@ -1,0 +1,9 @@
+/* ********************
+MOBILE at 375PX
+******************** */
+
+@media (max-width: 57em) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
